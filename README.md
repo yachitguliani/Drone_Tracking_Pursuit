@@ -13,5 +13,37 @@ Both simulations include animated visualizations saved as `.mp4` files.
 
 ---
 
-## 📂 Project Structure
+---
+
+## 🚀 Features
+
+### EKF Drone Tracking
+- Random enemy movement within a defined range.
+- Drone moves toward estimated target position.
+- Range measurements with Gaussian noise.
+- Extended Kalman Filter for estimating target position & velocity.
+- Visualizations:
+  - True target path
+  - Drone path
+  - EKF estimated path
+  - Range circles
+  - Speed comparison over time
+
+### Drone Pursuit Simulation
+- Chaser heads directly toward the moving target.
+- Target moves with slight random deviations.
+- Stops when the target is captured (within set radius).
+- Visualizations:
+  - Paths of chaser & enemy
+  - Distance over time
+  - Capture notification
+
+---
+
+## 🛠 Requirements
+
+Install required dependencies:
+```bash
+pip install numpy matplotlib
+
 
